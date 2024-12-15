@@ -68,6 +68,7 @@ public class Main {
         int standingPlaces = carriageCapacity - seatsCount;
         int peopleInCarriage = 80;
 
+
         if  (peopleInCarriage < carriageCapacity){
             System.out.println(" есть места");
             }else{
