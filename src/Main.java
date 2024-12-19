@@ -6,9 +6,9 @@ public class Main {
         System.out.println("Задача №1" + "\n");
         int age = 20;
         if (age > 18) {
-            System.out.println("Если возраст человека равен, то " + age + " он совершеннолетний ");
+            System.out.println("Если возраст человека равен," + age + " то он совершеннолетний ");
         } else {
-            System.out.println("Если возраст человека равен, то " + age + " он не совершеннолетний ");
+            System.out.println("Если возраст человека равен, " + age + " то он не совершеннолетний ");
         }
 
         System.out.println("Задача №2" + "\n");
@@ -67,6 +67,7 @@ public class Main {
         int seatsCount = 60;
         int standingPlaces = carriageCapacity - seatsCount;
         int peopleInCarriage = 80;
+
 
         if  (peopleInCarriage < carriageCapacity){
             System.out.println(" есть места");
